@@ -3,12 +3,11 @@ console.log("name: ", testName);
 
 let node = document.getElementById("one");
 
-node.innerHTML = "Click anywhere and watch the console logs";
+node.innerHTML = "Click anywhere on this page";
 
-let numberTest = 2;
-numberTest = numberTest + 1;
+let numberTest = 0;
 
 document.onclick = () => {
   numberTest = numberTest + 1;
-  console.log("numberTest: ", numberTest);
+  node.innerHTML = `Clicked ${numberTest} times`;
 };

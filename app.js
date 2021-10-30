@@ -3,9 +3,6 @@ console.log("name: ", testName);
 
 let node = document.getElementById("one");
 
-console.log("document: ", document.body);
-// console.log("node: ", node)
-
 node.innerHTML = "Click anywhere and watch the console logs";
 
 let numberTest = 2;
